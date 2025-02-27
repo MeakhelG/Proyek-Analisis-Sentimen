@@ -4,29 +4,22 @@
 Submission proyek analisis sentimen ini adalah sebuah proyek pertama untuk penilaian praktik machine learning dari kelas Belajar Pengembangan Machine Learning yang diberikan oleh Dicoding. Diharapkan dengan proyek analisis sentimen ini dapat memberikan insight dan pemahaman mengenai machine learning maupun deep learning.
 
 ## Struktur Proyek
-- `dashboard/`: Direktori yang berisi file dashboard.py serta data gabungan yang digunakan untuk membuat dasbor dari hasil analisis data.
-- `data/`: Direktori yang berisi file-file data CSV mentah dari link yang diberikan.
-- `notebook.ipynb`: File yang digunakan untuk melakukan analisis data secara menyeluruh.
+- `notebook.ipynb`: File yang digunakan untuk melakukan scraping hingga modeling secara menyeluruh.
+- `requirements.txt.`: File persyaratan module dan library.
+- `ulasan_gcal.csv`: File dataset hasil scraping dari aplikasi Google Calendar dari Play Store.
 - `README.md`: File dokumentasi.
 
 ## Instalasi
 1. Kloning repository ke komputer lokal dengan perintah berikut:
 ```
-git clone https://github.com/MeakhelG/Proyek-Akhir-Analisis-Data.git
+git clone https://github.com/MeakhelG/Proyek-Analisis-Sentimen.git
 ```
 2. Ubah direktori proyek dengan perintah berikut:
 ```
-cd Proyek-Akhir-Analisis-Data
+cd Proyek-Analisis-Sentimen
 ```
 3. Install package-package yang dibutuhkan dengan perintah berikut:
 ```
 pip install -r requirements.txt
 ```
-
-## Petunjuk Penggunaan
-1. Menjalankan visualisasi dashboard melalui lokal dengan perintah berikut:
-```
-streamlit run ./dashboard/dashboard.py
-```
-2. Menjalankan visualisasi dashboard melalui daring dengan klik link dibawah ini:
-[Proyek Akhir Analisis Data](https://meakhelg-proyek-akhir-data-analytics.streamlit.app/)
+4. Jalankan file notebook.ipynb.
