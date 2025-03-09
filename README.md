@@ -23,4 +23,5 @@ cd Proyek-Analisis-Sentimen
 ```
 pip install -r requirements.txt
 ```
-4. Jalankan file notebook.ipynb.
+4. Jalankan file scraping.ipynb.
+5. Jalankan file modeling.ipynb.
