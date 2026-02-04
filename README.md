@@ -7,7 +7,7 @@ Submission proyek analisis sentimen ini adalah sebuah proyek pertama untuk penil
 - `scraping.ipynb`: File yang digunakan untuk melakukan scraping hingga save ke csv.
 - `modeling.ipynb`: File yang digunakan untuk melakukan loading dataset hingga modeling secara menyeluruh.
 - `requirements.txt.`: File persyaratan module dan library.
-- `ulasan_gcal.csv`: File dataset hasil scraping dari aplikasi Google Calendar dari Play Store.
+- `ulasan_gemini.csv`: File dataset hasil scraping dari aplikasi Google Gemini dari Play Store.
 - `README.md`: File dokumentasi.
 
 ## Instalasi
